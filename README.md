@@ -1,9 +1,9 @@
 <h2>Fourth Challenge from FrontEnd Mentor. Newbie difficult level.</h2>
 
 <p><strong>Links</strong></p>
-Live Site URL: 
+Live Site URL: https://cwbads22.github.io/productpreview/index.html
 <br>
-FrontEnd Mentor: 
+FrontEnd Mentor: https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa
 <br>
 <br>
 <p><strong>My process</strong></p>
