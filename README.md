@@ -1,4 +1,4 @@
-<h2>Fourth Challenge from FrontEnd Mentor. Newbie difficult level.<h2>
+<h2>Fourth Challenge from FrontEnd Mentor. Newbie difficult level.</h2>
 
 <p><strong>Links</strong></p>
 Live Site URL: 
