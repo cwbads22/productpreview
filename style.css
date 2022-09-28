@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------*/
+
+.parent {
+  margin: 1.875rem auto;
+  padding: 0 1.875rem;
+}
+
+.grid {
+  max-width: 43.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+/* -----------------*/
+
+.product-img img {
+  max-width: 100%;
+  display: inherit;
+}
+
+/* -----------------*/
+
+.details {
+  flex: 0 1 300px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.infos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0rem 2.1875rem;
+}
+
+.headText {
+  letter-spacing: .1875rem;
+  font-size: .75rem;
+  color: hsl(212, 21%, 14%);
+  font-weight: 500;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  line-height: 2.3rem;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 16px;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+span {
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: .875rem;
+  text-decoration: line-through;
+}
+
+.priceNew {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 2.1875rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5625rem;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  padding: 1.125rem 1.25rem;
+  width: 99%;
+  color: white;
+  font-weight: bolder;
+  border-radius: .625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .625rem;
+  font-size: 1.125rem;
+  border: 0;
+}
+
+button:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  background-color: #1a4031;
+}
+
+button img {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media only screen and (max-width: 39.25rem) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-img img {
+    background-image: url(./images/image-product-mobile.jpg);
+    max-height: 18.75rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .infos {
+    display: block;
+    height: 400px;
+  }
+
+  h1, p, .priceNew, button{ 
+    padding-bottom: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 29.625rem) {
+  .grid {
+    grid-template-columns: 1fr;
+    width: 23.4375rem;
+    max-width: 23.4375rem;
+  }
+
+  .infos {
+    padding: .9375rem;
+  }
+}
+
+
