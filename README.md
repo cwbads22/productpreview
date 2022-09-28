@@ -19,7 +19,7 @@ HTML5 markup | CSS custom properties | Flexbox | Mobile-first workflow | Respons
 <h3>What I learned</h3>
 <p>This was by far the most challenging projec till now. It was very consuming and overwhelming because all the new things I had to add to my coding, like semantic HTML 5 tags, media queries in CSS. That required some hours of extra research, but finally it's done. </p>
 
-<p>Not the bst result, but that was starting to piss me off kkkkk never thought this project could be so hard!</p>
+<p>Not the best result, but that was starting to piss me off kkkkk never thought this project could be so hard!</p>
 <br>
 <p><strong>Useful resources</strong></p>
 <p> Lots research in this one, a very challenging piece of work. Tired now!</p>
